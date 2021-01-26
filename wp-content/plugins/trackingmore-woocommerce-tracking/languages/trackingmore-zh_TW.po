@@ -1,0 +1,2487 @@
+# Copyright (C) 2019 TrackingMore - WooCommerce Tracking
+# This file is distributed under the same license as the TrackingMore - WooCommerce Tracking package.
+msgid ""
+msgstr ""
+"Project-Id-Version: TrackingMore - WooCommerce Tracking 1.0.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wordpress\n"
+"POT-Creation-Date: 2019-01-03 14:07:32+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: api/class-trackingmore-api-authentication.php:65
+msgid "TrackingMore's WordPress Key is missing"
+msgstr "缺少TrackingMore WordPress密鑰"
+
+#: api/class-trackingmore-api-authentication.php:87
+msgid "TrackingMore's WordPress API Key is invalid"
+msgstr "無效的TrackingMore WordPress密鑰"
+
+#: api/class-trackingmore-api-json-handler.php:52
+msgid "JSONP support is disabled on this site"
+msgstr "此網站沒有激活JSONP支持"
+
+#: api/class-trackingmore-api-json-handler.php:59
+msgid "The JSONP callback function is invalid"
+msgstr "JSONP返回函數無效"
+
+#: api/class-trackingmore-api-orders.php:168
+msgid "You do not have permission to read the orders count"
+msgstr "你沒有權限閱讀訂單數量"
+
+#: api/class-trackingmore-api-resource.php:35
+msgid "Invalid %s ID"
+msgstr "無效的%sID"
+
+#: api/class-trackingmore-api-resource.php:44
+msgid "Invalid %s"
+msgstr "無效的%s"
+
+#: api/class-trackingmore-api-resource.php:50
+msgid "You do not have permission to read this %s"
+msgstr "你沒有權限閱讀%s"
+
+#: api/class-trackingmore-api-resource.php:55
+msgid "You do not have permission to edit this %s"
+msgstr "你沒有權限編輯%s"
+
+#: api/class-trackingmore-api-resource.php:60
+msgid "You do not have permission to delete this %s"
+msgstr "你沒有權限刪除%s"
+
+#: api/class-trackingmore-api-resource.php:215
+msgid "Permanently deleted customer"
+msgstr "永久刪除用戶"
+
+#: api/class-trackingmore-api-resource.php:217
+msgid "The customer cannot be deleted"
+msgstr "用户删除不了"
+
+#: api/class-trackingmore-api-resource.php:225
+msgid "This %s cannot be deleted"
+msgstr "%s刪除不了"
+
+#: api/class-trackingmore-api-resource.php:228
+msgid "Permanently deleted %s"
+msgstr "永久刪除%s"
+
+#: api/class-trackingmore-api-resource.php:234
+msgid "Deleted %s"
+msgstr "刪除%s"
+
+#: api/class-trackingmore-api-server.php:91
+msgid "Invalid authentication method"
+msgstr "無效的驗證方法"
+
+#: api/class-trackingmore-api-server.php:178
+msgid "Unsupported request method"
+msgstr "請求方式不支持"
+
+#: api/class-trackingmore-api-server.php:195
+msgid "The handler for the route is invalid"
+msgstr "路徑處理無效"
+
+#: api/class-trackingmore-api-server.php:229
+msgid "No route was found matching the URL and request method"
+msgstr "沒有找到與url和請求方式匹配的路徑"
+
+#: api/class-trackingmore-api-server.php:249
+msgid "Missing parameter %s"
+msgstr "缺少參數%s"
+
+#: class-trackingmore-settings.php:84
+msgid "Settings"
+msgstr "設置"
+
+#: class-trackingmore-settings.php:114
+msgid "Plugin"
+msgstr "外掛名稱"
+
+#: class-trackingmore-settings.php:122
+msgid "Couriers"
+msgstr "運輸商"
+
+#: class-trackingmore-settings.php:130
+msgid "Display Track Button at Order History Page"
+msgstr "在訂單查詢頁面顯示查詢按鈕"
+
+#: class-trackingmore-settings.php:146
+msgid "Content"
+msgstr "內容自訂"
+
+#: class-trackingmore-settings.php:246 trackingmore.php:318
+msgid "Your order was shipped via "
+msgstr "你的包裹運輸商是"
+
+#: class-trackingmore-settings.php:251 trackingmore.php:319
+msgid "Tracking number is "
+msgstr "快遞單號是"
+
+#: class-trackingmore-settings.php:255
+msgid "Demo"
+msgstr "效果"
+
+#: class-trackingmore-settings.php:266
+msgid "Use Track Button"
+msgstr "使用Track Button"
+
+#: couriers.php:5
+msgid "007EX"
+msgstr "007EX"
+
+#: couriers.php:11
+msgid "13ten"
+msgstr "13ten"
+
+#: couriers.php:17
+msgid "138sd"
+msgstr "泰國138快遞"
+
+#: couriers.php:23
+msgid "139 ECONOMIC Package"
+msgstr "139快遞"
+
+#: couriers.php:29
+msgid "17 Post Service"
+msgstr "17 Post Service"
+
+#: couriers.php:35
+msgid "1hcang"
+msgstr "1號倉"
+
+#: couriers.php:41
+msgid "2GO"
+msgstr "2GO"
+
+#: couriers.php:47
+msgid "2U Express"
+msgstr "優優速遞"
+
+#: couriers.php:53
+msgid "360lion Express"
+msgstr "360lion Express"
+
+#: couriers.php:59
+msgid "360zebra"
+msgstr "斑馬物聯網"
+
+#: couriers.php:65
+msgid "4PX"
+msgstr "遞四方"
+
+#: couriers.php:71
+msgid "Best Express(logistic)"
+msgstr "Best Express(logistic)"
+
+#: couriers.php:77
+msgid "BEL"
+msgstr "BEL"
+
+#: couriers.php:83
+msgid "Profit Fields"
+msgstr "永利八達通"
+
+#: couriers.php:89
+msgid "8Europe"
+msgstr "8europe"
+
+#: couriers.php:95
+msgid "ABF Freight"
+msgstr "ABF Freight"
+
+#: couriers.php:101
+msgid "ABX Express"
+msgstr "ABX Express"
+
+#: couriers.php:107
+msgid "ACOMMERCE"
+msgstr "ACommerce"
+
+#: couriers.php:113
+msgid "ACS Courier"
+msgstr "ACS Courier"
+
+#: couriers.php:119
+msgid "Adicional Logistics"
+msgstr "Adicional Logistics"
+
+#: couriers.php:125
+msgid "ADSOne"
+msgstr "ADSOne快遞"
+
+#: couriers.php:131
+msgid "Afghan Post"
+msgstr "阿富汗郵政"
+
+#: couriers.php:137
+msgid "AIR21"
+msgstr "AIR21"
+
+#: couriers.php:143
+msgid "Airfex"
+msgstr "Airfex"
+
+#: couriers.php:149
+msgid "Airpak Express"
+msgstr "Airpak Express"
+
+#: couriers.php:155
+msgid "Airspeed International Corporation"
+msgstr "Airspeed International Corporation"
+
+#: couriers.php:161
+msgid "Airwings Courier Express India"
+msgstr "Airwings Courier Express India"
+
+#: couriers.php:167
+msgid "Ali Business Logistics"
+msgstr "阿里電商物流"
+
+#: couriers.php:173
+msgid "Åland Post"
+msgstr "奧蘭群島芬蘭郵政"
+
+#: couriers.php:179
+msgid "allekurier"
+msgstr "AlleKurier"
+
+#: couriers.php:185
+msgid "Alljoy"
+msgstr "Alljoy"
+
+#: couriers.php:191
+msgid "Alpha Fast"
+msgstr "Alpha Fast快遞"
+
+#: couriers.php:197
+msgid "An Post"
+msgstr "愛爾蘭郵政"
+
+#: couriers.php:203
+msgid "Andorra Post"
+msgstr "安道爾郵政"
+
+#: couriers.php:209
+msgid "Ane Express"
+msgstr "安能物流"
+
+#: couriers.php:215
+msgid "Anjun Logistics"
+msgstr "安駿物流"
+
+#: couriers.php:221
+msgid "Antilles Post"
+msgstr "荷屬安地列斯荷蘭郵政"
+
+#: couriers.php:227
+msgid "APC Postal Logistics"
+msgstr "APC Postal Logistics"
+
+#: couriers.php:233
+msgid "A PLUS EXPRESS"
+msgstr "美國漢邦快遞"
+
+#: couriers.php:239
+msgid "Aramex"
+msgstr "Aramex"
+
+#: couriers.php:245
+msgid "Ark express"
+msgstr "Ark express"
+
+#: couriers.php:251
+msgid "Armenia Post"
+msgstr "亞美尼亞郵政"
+
+#: couriers.php:257
+msgid "Arrow XL"
+msgstr "Arrow XL"
+
+#: couriers.php:263
+msgid "Aruba Post"
+msgstr "阿路巴郵政"
+
+#: couriers.php:269
+msgid "Asendia Germany"
+msgstr "Asendia Germany"
+
+#: couriers.php:275
+msgid "Asendia HK"
+msgstr "Asendia HK"
+
+#: couriers.php:281
+msgid "Asendia UK"
+msgstr "Asendia UK"
+
+#: couriers.php:287
+msgid "Asendia USA"
+msgstr "Asendia USA"
+
+#: couriers.php:293
+msgid "AsiaFly"
+msgstr "AsiaFly"
+
+#: couriers.php:299
+msgid "Auexpress"
+msgstr "澳郵中國快運AuExpress"
+
+#: couriers.php:305
+msgid "Ausworld Express"
+msgstr "澳世速遞"
+
+#: couriers.php:311
+msgid "Auspost"
+msgstr "Auspost"
+
+#: couriers.php:317
+msgid "Australia EMS"
+msgstr "澳洲 EMS"
+
+#: couriers.php:323
+msgid "Australia Post"
+msgstr "澳洲郵政"
+
+#: couriers.php:329
+msgid "Austrian Post"
+msgstr "奧地利郵政"
+
+#: couriers.php:335
+msgid "Azerbaijan Post"
+msgstr "阿塞拜疆郵政"
+
+#: couriers.php:341
+msgid "BAB international"
+msgstr "BAB international"
+
+#: couriers.php:347
+msgid "Bahrain Post"
+msgstr "巴林郵政"
+
+#: couriers.php:353
+msgid "Bangladesh EMS"
+msgstr "孟加拉 EMS"
+
+#: couriers.php:359
+msgid "Barbados Post"
+msgstr "巴巴多斯郵政"
+
+#: couriers.php:365
+msgid "BRT Bartolini"
+msgstr "BRT Bartolini"
+
+#: couriers.php:371
+msgid "Bpost"
+msgstr "比利時郵政"
+
+#: couriers.php:377
+msgid "Belize Post"
+msgstr "伯利茲郵政"
+
+#: couriers.php:383
+msgid "Belarus Post"
+msgstr "白俄羅斯郵政"
+
+#: couriers.php:389
+msgid "Benin Post"
+msgstr "貝寧郵政"
+
+#: couriers.php:395
+msgid "Bermuda Post"
+msgstr "百慕達郵政"
+
+#: couriers.php:401
+msgid "Best Express"
+msgstr "百世快遞"
+
+#: couriers.php:407
+msgid "Bhutan Post"
+msgstr "不丹郵政"
+
+#: couriers.php:413
+msgid "Bluedart"
+msgstr "Bluedart"
+
+#: couriers.php:419
+msgid "Blue Sky Express"
+msgstr "Blue Sky Express"
+
+#: couriers.php:425
+msgid "Bombino Express"
+msgstr "Bombino Express"
+
+#: couriers.php:431
+msgid "Bonds Couriers"
+msgstr "Bonds Couriers"
+
+#: couriers.php:437
+msgid "Bosnia And Herzegovina Post"
+msgstr "波黑郵政"
+
+#: couriers.php:443
+msgid "Botswana Post"
+msgstr "博茨瓦納郵政"
+
+#: couriers.php:449
+msgid "Boxc Logistics"
+msgstr "Boxc Logistics"
+
+#: couriers.php:455
+msgid "BQC"
+msgstr "BQC"
+
+#: couriers.php:461
+msgid "Brazil Correios"
+msgstr "巴西郵政"
+
+#: couriers.php:467
+msgid "Brunei Post"
+msgstr "汶萊郵政"
+
+#: couriers.php:473
+msgid "BSI express"
+msgstr "BSI express"
+
+#: couriers.php:479
+msgid "LJS"
+msgstr "LJS"
+
+#: couriers.php:485
+msgid "Bao Tongda Freight Forwarding"
+msgstr "Bao Tongda Freight Forwarding"
+
+#: couriers.php:491
+msgid "Buffalo"
+msgstr "Buffalo"
+
+#: couriers.php:497
+msgid "Bulgaria Post"
+msgstr "保加利亞郵政"
+
+#: couriers.php:503
+msgid "Burundi Post"
+msgstr "布隆迪郵政"
+
+#: couriers.php:509
+msgid "Buylogic"
+msgstr "捷買送"
+
+#: couriers.php:515
+msgid "Cacesa Postal"
+msgstr "Cacesa南美專線"
+
+#: couriers.php:521
+msgid "Aliexpress Standard Shipping"
+msgstr "速賣通線上物流"
+
+#: couriers.php:527
+msgid "Cambodia Post"
+msgstr "柬埔寨郵政"
+
+#: couriers.php:533
+msgid "Cameroon Post"
+msgstr "喀麥隆郵政"
+
+#: couriers.php:539
+msgid "Canada Post"
+msgstr "加拿大郵政"
+
+#: couriers.php:545
+msgid "Canpar Courier"
+msgstr "Canpar Courier"
+
+#: couriers.php:551
+msgid "CBL Logistics"
+msgstr "CBL Logistics"
+
+#: couriers.php:557
+msgid "Better Express"
+msgstr "Better Express"
+
+#: couriers.php:563
+msgid "CDEK Express"
+msgstr "CDEK快遞"
+
+#: couriers.php:569
+msgid "Cess"
+msgstr "國通快遞"
+
+#: couriers.php:575
+msgid "CEVA Logistics"
+msgstr "CEVA Logistics"
+
+#: couriers.php:581
+msgid "China EMS"
+msgstr "中國 EMS"
+
+#: couriers.php:587
+msgid "China Post"
+msgstr "中國郵政"
+
+#: couriers.php:593
+msgid "China Russia56"
+msgstr "俄必達A79"
+
+#: couriers.php:599
+msgid "Chinz Logistics"
+msgstr "秦遠物流"
+
+#: couriers.php:605
+msgid "France EMS - Chronopost"
+msgstr "法國 EMS-Chronopost"
+
+#: couriers.php:611
+msgid "Chronopost Portugal"
+msgstr "Chronopost Portugal"
+
+#: couriers.php:617
+msgid "Chukou1 Logistics"
+msgstr "出口易"
+
+#: couriers.php:623
+msgid "City-Link Express"
+msgstr "City-Link(信遞聯）"
+
+#: couriers.php:629
+msgid "CNE Express"
+msgstr "CNE國際快遞"
+
+#: couriers.php:635
+msgid "CNILINK"
+msgstr "CNILINK"
+
+#: couriers.php:641
+msgid "Cnpex"
+msgstr "中郵快遞"
+
+#: couriers.php:647
+msgid "COE"
+msgstr "COE"
+
+#: couriers.php:653
+msgid "Colis Privé"
+msgstr "Colis Privé"
+
+#: couriers.php:659
+msgid "Colissimo"
+msgstr "法國郵政-Colissimo"
+
+#: couriers.php:665
+msgid "Collect+"
+msgstr "Collect+"
+
+#: couriers.php:671
+msgid "Colombia Post"
+msgstr "哥倫比亞郵政"
+
+#: couriers.php:677
+msgid "Come One express"
+msgstr "Come One express"
+
+#: couriers.php:683
+msgid "Con-way Freight"
+msgstr "Con-way Freight"
+
+#: couriers.php:689
+msgid "Correios Cabo Verde"
+msgstr "Correios Cabo Verde"
+
+#: couriers.php:695
+msgid "Argentina Post"
+msgstr "阿根廷郵政"
+
+#: couriers.php:701
+msgid "Paraguay Post"
+msgstr "巴拉圭郵政"
+
+#: couriers.php:707
+msgid "Bolivia Post"
+msgstr "玻利維亞郵政"
+
+#: couriers.php:713
+msgid "Correos Chile"
+msgstr "智利郵政"
+
+#: couriers.php:719
+msgid "Costa Rica Post"
+msgstr "哥斯達黎加郵政"
+
+#: couriers.php:725
+msgid "Ecuador Post"
+msgstr "厄瓜多爾郵政"
+
+#: couriers.php:731
+msgid "Mexico Post"
+msgstr "墨西哥郵政"
+
+#: couriers.php:737
+msgid "Panama Post"
+msgstr "巴拿馬郵政"
+
+#: couriers.php:743
+msgid "Correos Spain"
+msgstr "西班牙郵政"
+
+#: couriers.php:749
+msgid "Cosex"
+msgstr "Cosex"
+
+#: couriers.php:755
+msgid "Cosmetics Now"
+msgstr "Cosmetics Now"
+
+#: couriers.php:761
+msgid "Courier IT"
+msgstr "Courier IT"
+
+#: couriers.php:767
+msgid "CourierPost"
+msgstr "CourierPost"
+
+#: couriers.php:773
+msgid "Couriers Please express"
+msgstr "Couriers Please"
+
+#: couriers.php:779
+msgid "CPacket"
+msgstr "CPacket"
+
+#: couriers.php:785
+msgid "CRE"
+msgstr "CRE"
+
+#: couriers.php:791
+msgid "Portugal Post - CTT"
+msgstr "葡萄牙郵政-CTT"
+
+#: couriers.php:797
+msgid "Cuba Post"
+msgstr "古巴郵政"
+
+#: couriers.php:803
+msgid "Cuckoo Express"
+msgstr "布穀鳥速遞"
+
+#: couriers.php:809
+msgid "CXC"
+msgstr "CXC"
+
+#: couriers.php:815
+msgid "Cyprus Post"
+msgstr "塞浦路斯郵政"
+
+#: couriers.php:821
+msgid "Česká Pošta"
+msgstr "捷克郵政"
+
+#: couriers.php:827
+msgid "Dawn Wing"
+msgstr "Dawn Wing"
+
+#: couriers.php:833
+msgid "DB Schenker"
+msgstr "DB Schenker"
+
+#: couriers.php:839
+msgid "Dekun"
+msgstr "Dekun"
+
+#: couriers.php:845
+msgid "Delcart"
+msgstr "Delcart"
+
+#: couriers.php:851
+msgid "Delhivery"
+msgstr "Delhivery"
+
+#: couriers.php:857
+msgid "Deltec Courier"
+msgstr "Deltec Courier"
+
+#: couriers.php:863
+msgid "Denmark post"
+msgstr "丹麥郵政"
+
+#: couriers.php:869
+msgid "DEPPON"
+msgstr "德邦物流"
+
+#: couriers.php:875
+msgid "Deutsche Post"
+msgstr "德國郵政"
+
+#: couriers.php:881
+msgid "DEX-I"
+msgstr "DEX-I"
+
+#: couriers.php:887
+msgid "DHL Express"
+msgstr "DHL"
+
+#: couriers.php:893
+msgid "DHL Active Tracing"
+msgstr "DHL Active Tracing"
+
+#: couriers.php:899
+msgid "DHL Benelux"
+msgstr "DHL Benelux"
+
+#: couriers.php:905
+msgid "DHL Spain Domestic"
+msgstr "西班牙DHL"
+
+#: couriers.php:911
+msgid "Deutsche Post DHL"
+msgstr "DHL德國郵政"
+
+#: couriers.php:917
+msgid "DHL Hong Kong"
+msgstr "DHL Hong Kong"
+
+#: couriers.php:923
+msgid "DHL Netherlands"
+msgstr "DHL Netherlands"
+
+#: couriers.php:929
+msgid "DHL Poland Domestic"
+msgstr "波蘭DHL"
+
+#: couriers.php:935
+msgid "DHL eCommerce Asia"
+msgstr "DHL Global Mail Asia"
+
+#: couriers.php:941
+msgid "DHL eCommerce US"
+msgstr "DHL電子商務"
+
+#: couriers.php:947
+msgid "DHL Parcel Netherlands"
+msgstr "荷蘭DHL"
+
+#: couriers.php:953
+msgid "Direct Freight"
+msgstr "Direct Freight快遞"
+
+#: couriers.php:959
+msgid "DMM Network"
+msgstr "DMM Network"
+
+#: couriers.php:965
+msgid "CJ Logistics"
+msgstr "CJ Logistics"
+
+#: couriers.php:971
+msgid "DotZot"
+msgstr "DotZot"
+
+#: couriers.php:977
+msgid "DPD"
+msgstr "DPD"
+
+#: couriers.php:983
+msgid "DPD Ireland"
+msgstr "愛爾蘭DPD"
+
+#: couriers.php:989
+msgid "DPD Poland"
+msgstr "波蘭DPD"
+
+#: couriers.php:995
+msgid "DPD UK"
+msgstr "DPD UK"
+
+#: couriers.php:1001
+msgid "DPE Express"
+msgstr "遞必易"
+
+#: couriers.php:1007
+msgid "DPE South Africa"
+msgstr "DPE South Africa"
+
+#: couriers.php:1013
+msgid "DPEX"
+msgstr "DPEX"
+
+#: couriers.php:1019
+msgid "DSV"
+msgstr "DSV"
+
+#: couriers.php:1025
+msgid "DTDC"
+msgstr "DTDC"
+
+#: couriers.php:1031
+msgid "DTDC Plus"
+msgstr "DTDC Plus"
+
+#: couriers.php:1037
+msgid "DWZ Express"
+msgstr "遞五洲國際物流"
+
+#: couriers.php:1043
+msgid "DX Delivery"
+msgstr "DX Delivery"
+
+#: couriers.php:1049
+msgid "Taiwan Pelican Express"
+msgstr "臺灣宅配通快遞"
+
+#: couriers.php:1055
+msgid "Easy Mail"
+msgstr "Easy Mail"
+
+#: couriers.php:1061
+msgid "EC-Firstclass"
+msgstr "EC-Firstclass"
+
+#: couriers.php:1067
+msgid "Ecargo"
+msgstr "Ecargo"
+
+#: couriers.php:1073
+msgid "Echo"
+msgstr "Echo"
+
+#: couriers.php:1079
+msgid "Ecom Express"
+msgstr "Ecom Express"
+
+#: couriers.php:1085
+msgid "ECPOST"
+msgstr "ECPOST"
+
+#: couriers.php:1091
+msgid "EFSPost"
+msgstr "平安快遞"
+
+#: couriers.php:1097
+msgid "Egypt Post"
+msgstr "埃及郵政"
+
+#: couriers.php:1103
+msgid "Ekart"
+msgstr "Ekart"
+
+#: couriers.php:1109
+msgid "El Salvador Post"
+msgstr "薩爾瓦多郵政"
+
+#: couriers.php:1115
+msgid "Guatemala Post"
+msgstr "危地馬拉郵政"
+
+#: couriers.php:1121
+msgid "E-lian"
+msgstr "E-lian"
+
+#: couriers.php:1127
+msgid "Emirates Post"
+msgstr "阿聯酋郵政"
+
+#: couriers.php:1133
+msgid "EMPS Express"
+msgstr "EMPS Express"
+
+#: couriers.php:1139
+msgid "Envialia"
+msgstr "Envialia"
+
+#: couriers.php:1145
+msgid "ePacket"
+msgstr "ePacket"
+
+#: couriers.php:1151
+msgid "Equick China"
+msgstr "EQUICK-CN"
+
+#: couriers.php:1157
+msgid "Eritrea Post"
+msgstr "厄立特里亞郵政"
+
+#: couriers.php:1163
+msgid "Espeedpost"
+msgstr "易速國際物流"
+
+#: couriers.php:1169
+msgid "Estes"
+msgstr "Estes"
+
+#: couriers.php:1175
+msgid "Ethiopia Post"
+msgstr "埃塞俄比亞郵政"
+
+#: couriers.php:1181
+msgid "eTotal"
+msgstr "eTotal"
+
+#: couriers.php:1187
+msgid "ETS Express"
+msgstr "俄通收"
+
+#: couriers.php:1193
+msgid "Eurodis"
+msgstr "Eurodis快遞"
+
+#: couriers.php:1199
+msgid "EWE Global Express"
+msgstr "EWE全球快遞"
+
+#: couriers.php:1205
+msgid "DPD France"
+msgstr "DPD France"
+
+#: couriers.php:1211
+msgid "Expeditors"
+msgstr "Expeditors"
+
+#: couriers.php:1217
+msgid "Eyou800"
+msgstr "易友通"
+
+#: couriers.php:1223
+msgid "Famiport"
+msgstr "Famiport"
+
+#: couriers.php:1229
+msgid "Far International Logistics"
+msgstr "泛遠國際物流"
+
+#: couriers.php:1235
+msgid "Faroe Islands Post"
+msgstr "法羅群島郵政"
+
+#: couriers.php:1241
+msgid "Fastgo"
+msgstr "速派快遞FastGo"
+
+#: couriers.php:1247
+msgid "Fastrak Services"
+msgstr "Fastrak Services"
+
+#: couriers.php:1253
+msgid "Fastway Australia"
+msgstr "澳大利亞Fastway"
+
+#: couriers.php:1259
+msgid "Fastway Ireland"
+msgstr "愛爾蘭Fastway"
+
+#: couriers.php:1265
+msgid "Fastway New Zealand"
+msgstr "紐西蘭Fastway"
+
+#: couriers.php:1271
+msgid "FD Express"
+msgstr "方遞物流"
+
+#: couriers.php:1277
+msgid "Fedex"
+msgstr "Fedex-聯邦快遞"
+
+#: couriers.php:1283
+msgid "Fedex Freight"
+msgstr "Fedex Freight"
+
+#: couriers.php:1289
+msgid "FedEx Ground"
+msgstr "FedEx Ground"
+
+#: couriers.php:1295
+msgid "FedEx UK"
+msgstr "英國FedEx"
+
+#: couriers.php:1301
+msgid "Fetchr"
+msgstr "Fetchr"
+
+#: couriers.php:1307
+msgid "Fiji Post"
+msgstr "斐濟郵政"
+
+#: couriers.php:1313
+msgid "Finland Post - Posti"
+msgstr "芬蘭郵政-Posti"
+
+#: couriers.php:1319
+msgid "First Flight"
+msgstr "First Flight"
+
+#: couriers.php:1325
+msgid "First Flight Couriers"
+msgstr "First Flight Couriers"
+
+#: couriers.php:1331
+msgid "Flyt Express"
+msgstr "飛特物流"
+
+#: couriers.php:1337
+msgid "Flyway Express"
+msgstr "程光快遞"
+
+#: couriers.php:1343
+msgid "freaky quick logistics"
+msgstr "FQ狂派速遞"
+
+#: couriers.php:1349
+msgid "FTD Express"
+msgstr "富騰達快遞"
+
+#: couriers.php:1355
+msgid "Fulfillmen"
+msgstr "Fulfillmen"
+
+#: couriers.php:1361
+msgid "Gao Post"
+msgstr "Gao Post"
+
+#: couriers.php:1367
+msgid "Gati KWE"
+msgstr "Gati-KWE"
+
+#: couriers.php:1373
+msgid "GATI Courier"
+msgstr "GATI上海迦遞"
+
+#: couriers.php:1379
+msgid "GDEX"
+msgstr "GDEX"
+
+#: couriers.php:1385
+msgid "GEL Express"
+msgstr "GEL Express"
+
+#: couriers.php:1391
+msgid "Georgia Post"
+msgstr "格魯吉亞郵政"
+
+#: couriers.php:1397
+msgid "Ghana Post"
+msgstr "加納郵政"
+
+#: couriers.php:1403
+msgid "Giao Hàng Nhanh"
+msgstr "Giao Hàng Nhanh"
+
+#: couriers.php:1409
+msgid "Gibraltar Post"
+msgstr "Gibraltar Post"
+
+#: couriers.php:1415
+msgid "Global Order (Cainiao)"
+msgstr "Global Order (Cainiao)"
+
+#: couriers.php:1421
+msgid "Globegistics Inc."
+msgstr "Globegistics Inc"
+
+#: couriers.php:1427
+msgid "GLS"
+msgstr "GLS"
+
+#: couriers.php:1433
+msgid "GLS Italy"
+msgstr "義大利GLS"
+
+#: couriers.php:1439
+msgid "Gofly"
+msgstr "Gofly"
+
+#: couriers.php:1445
+msgid "GoJavas"
+msgstr "GoJavas"
+
+#: couriers.php:1451
+msgid "Grand Slam Express"
+msgstr "Grand Slam Express"
+
+#: couriers.php:1457
+msgid "ELTA Hellenic Post"
+msgstr "希臘郵政"
+
+#: couriers.php:1463
+msgid "Greyhound"
+msgstr "Greyhound"
+
+#: couriers.php:1469
+msgid "Guernsey Post"
+msgstr "根西島郵政"
+
+#: couriers.php:1475
+msgid "Hanjin Shipping"
+msgstr "Hanjin Shipping"
+
+#: couriers.php:1481
+msgid "HCT Express"
+msgstr "HCT Express"
+
+#: couriers.php:1487
+msgid "Hermesworld"
+msgstr "Hermesworld"
+
+#: couriers.php:1493
+msgid "Hermes Germany"
+msgstr "德國Hermes"
+
+#: couriers.php:1499
+msgid "Hua Han Logistics"
+msgstr "華翰物流"
+
+#: couriers.php:1505
+msgid "HiveWMS"
+msgstr "HiveWMS"
+
+#: couriers.php:1511
+msgid "HKD"
+msgstr "HKD"
+
+#: couriers.php:1517
+msgid "Hnfywl"
+msgstr "Hnfywl"
+
+#: couriers.php:1523
+msgid "Hong Kong Post"
+msgstr "香港郵政"
+
+#: couriers.php:1529
+msgid "Croatia Post"
+msgstr "克羅地亞郵政"
+
+#: couriers.php:1535
+msgid "Hong Tai"
+msgstr "Hong Tai"
+
+#: couriers.php:1541
+msgid "Huida Express"
+msgstr "美國匯達快遞"
+
+#: couriers.php:1547
+msgid "Hui Logistics"
+msgstr "Hui Logistics"
+
+#: couriers.php:1553
+msgid "I-parcel"
+msgstr "I-parcel"
+
+#: couriers.php:1559
+msgid "Iceland Post"
+msgstr "冰島郵政"
+
+#: couriers.php:1565
+msgid "Dada logistic"
+msgstr "大達物流"
+
+#: couriers.php:1571
+msgid "IDEX"
+msgstr "IDEX"
+
+#: couriers.php:1577
+msgid "IEPost"
+msgstr "IEPost"
+
+#: couriers.php:1583
+msgid "IMEX Global Solutions"
+msgstr "IMEX Global Solutions"
+
+#: couriers.php:1589
+msgid "IML Logistics"
+msgstr "IML Logistics"
+
+#: couriers.php:1595
+msgid "India Post"
+msgstr "印度郵政"
+
+#: couriers.php:1601
+msgid "Indonesia Post"
+msgstr "印度尼西亞郵政"
+
+#: couriers.php:1607
+msgid "InPost Paczkomaty"
+msgstr "InPost Paczkomaty"
+
+#: couriers.php:1613
+msgid "International Seur"
+msgstr "International Seur"
+
+#: couriers.php:1619
+msgid "Rwanda Post"
+msgstr "盧旺達郵政"
+
+#: couriers.php:1625
+msgid "Iran Post"
+msgstr "伊朗郵政"
+
+#: couriers.php:1631
+msgid "Israel Post"
+msgstr "以色列郵政"
+
+#: couriers.php:1637
+msgid "Italy SDA"
+msgstr "義大利SDA"
+
+#: couriers.php:1643
+msgid "Ivory Coast EMS"
+msgstr "科特迪瓦 EMS"
+
+#: couriers.php:1649
+msgid "J-NET Express"
+msgstr "J-NET捷網"
+
+#: couriers.php:1655
+msgid "Jam Express"
+msgstr "Jam Express"
+
+#: couriers.php:1661
+msgid "Jamaica Post"
+msgstr "牙買加郵政"
+
+#: couriers.php:1667
+msgid "Japan Post"
+msgstr "日本郵政"
+
+#: couriers.php:1673
+msgid "Jayeek"
+msgstr "Jayeek"
+
+#: couriers.php:1679
+msgid "Jayon Express (JEX)"
+msgstr "Jayon Express (JEX)"
+
+#: couriers.php:1685
+msgid "JCEX"
+msgstr "JCEX佳成"
+
+#: couriers.php:1691
+msgid "JD Express"
+msgstr "京東快遞"
+
+#: couriers.php:1697
+msgid "Jdpplus"
+msgstr "Jdpplus"
+
+#: couriers.php:1703
+msgid "Jersey Post"
+msgstr "jerse-ypost"
+
+#: couriers.php:1709
+msgid "JET"
+msgstr "JET"
+
+#: couriers.php:1715
+msgid "Jet-Ship Worldwide"
+msgstr "Jet-Ship Worldwide"
+
+#: couriers.php:1721
+msgid "CNEX"
+msgstr "佳吉物流"
+
+#: couriers.php:1727
+msgid "Jiayi Express"
+msgstr "佳怡物流"
+
+#: couriers.php:1733
+msgid "Jordan Post"
+msgstr "約旦郵政"
+
+#: couriers.php:1739
+msgid "JS EXPRESS"
+msgstr "JS EXPRESS"
+
+#: couriers.php:1745
+msgid "Kangaroo Worldwide Express"
+msgstr "Kangaroo Worldwide Express"
+
+#: couriers.php:1751
+msgid "Kawa"
+msgstr "Kawa"
+
+#: couriers.php:1757
+msgid "Kazakhstan Post"
+msgstr "哈薩克郵政"
+
+#: couriers.php:1763
+msgid "Kenya Post"
+msgstr "肯尼亞郵政"
+
+#: couriers.php:1769
+msgid "Kerry Logistics"
+msgstr "嘉里大通物流"
+
+#: couriers.php:1775
+msgid "Kerry Tec"
+msgstr "Kerry Tec"
+
+#: couriers.php:1781
+msgid "Kerry Express"
+msgstr "Kerry Express"
+
+#: couriers.php:1787
+msgid "KGM Hub"
+msgstr "KGM Hub"
+
+#: couriers.php:1793
+msgid "Fast Express"
+msgstr "快捷快遞"
+
+#: couriers.php:1799
+msgid "King Kong Express"
+msgstr "King Kong Express"
+
+#: couriers.php:1805
+msgid "Korea Post"
+msgstr "韓國郵政"
+
+#: couriers.php:1811
+msgid "K1 Express"
+msgstr "K1 Express"
+
+#: couriers.php:1817
+msgid "KWT Express"
+msgstr "京華達物流"
+
+#: couriers.php:1823
+msgid "KUAYUE EXPRESS"
+msgstr "跨越速運"
+
+#: couriers.php:1829
+msgid "Kyrgyzstan Post"
+msgstr "吉爾吉斯斯坦郵政"
+
+#: couriers.php:1835
+msgid "Monaco Post"
+msgstr "摩納哥郵政"
+
+#: couriers.php:1841
+msgid "Landmark Global"
+msgstr "Landmark Global快遞"
+
+#: couriers.php:1847
+msgid "Laos Post"
+msgstr "老撾郵政"
+
+#: couriers.php:1853
+msgid "La Poste"
+msgstr "法國郵政 - La Poste"
+
+#: couriers.php:1859
+msgid "LaserShip"
+msgstr "Lasership"
+
+#: couriers.php:1865
+msgid "Latvia Post"
+msgstr "拉脫維亞郵政"
+
+#: couriers.php:1871
+msgid "LBC Express"
+msgstr "LBC Express"
+
+#: couriers.php:1877
+msgid "LiBang International Logistics"
+msgstr "立邦國際物流"
+
+#: couriers.php:1883
+msgid "LD Logistics"
+msgstr "LD Logistics"
+
+#: couriers.php:1889
+msgid "LDXpress"
+msgstr "LDXpress"
+
+#: couriers.php:1895
+msgid "Leopards Express"
+msgstr "Leopards Express"
+
+#: couriers.php:1901
+msgid "Lesotho Post"
+msgstr "萊索托郵政"
+
+#: couriers.php:1907
+msgid "Lazada (LEX)"
+msgstr "Lazada (LEX)"
+
+#: couriers.php:1913
+msgid "LHT Express"
+msgstr "LHT Express"
+
+#: couriers.php:1919
+msgid "Lebanon Post"
+msgstr "黎巴嫩郵政"
+
+#: couriers.php:1925
+msgid "Liechtenstein Post"
+msgstr "列支敦士登郵政"
+
+#: couriers.php:1931
+msgid "Lithuania Post"
+msgstr "立陶宛郵政"
+
+#: couriers.php:1937
+msgid "Linex"
+msgstr "Linex"
+
+#: couriers.php:1943
+msgid "WEL"
+msgstr "WEL"
+
+#: couriers.php:1949
+msgid "Ltian"
+msgstr "Ltian"
+
+#: couriers.php:1955
+msgid "Luxembourg Post"
+msgstr "盧森堡郵政"
+
+#: couriers.php:1961
+msgid "Logistic Worldwide Express"
+msgstr "利威國際物流（LWE）"
+
+#: couriers.php:1967
+msgid "Macao Post"
+msgstr "澳門郵政"
+
+#: couriers.php:1973
+msgid "Macedonia Post"
+msgstr "馬其頓郵政"
+
+#: couriers.php:1979
+msgid "Magyar Posta"
+msgstr "匈牙利郵政"
+
+#: couriers.php:1985
+msgid "MailAmericas"
+msgstr "MailAmericas"
+
+#: couriers.php:1991
+msgid "Malaysia Post"
+msgstr "馬來西亞郵政"
+
+#: couriers.php:1997
+msgid "Maldives Post"
+msgstr "馬爾代夫郵政"
+
+#: couriers.php:2003
+msgid "Malta Post"
+msgstr "馬爾他郵政"
+
+#: couriers.php:2009
+msgid "Matdespatch"
+msgstr "Matdespatch快遞"
+
+#: couriers.php:2015
+msgid "Matkahuolto"
+msgstr "Matkahuolto"
+
+#: couriers.php:2021
+msgid "Mauritius Post"
+msgstr "毛里裘斯郵政"
+
+#: couriers.php:2027
+msgid "Maxcellents Pte Ltd"
+msgstr "Maxcellents Pte Ltd"
+
+#: couriers.php:2033
+msgid "MC Express"
+msgstr "MC Express"
+
+#: couriers.php:2039
+msgid "Meest Express"
+msgstr "Meest Express"
+
+#: couriers.php:2045
+msgid "Miuson Express"
+msgstr "深圳淼信國際物流"
+
+#: couriers.php:2051
+msgid "Moldova Post"
+msgstr "摩爾多瓦郵政"
+
+#: couriers.php:2057
+msgid "Monaco EMS"
+msgstr "摩納哥 EMS"
+
+#: couriers.php:2063
+msgid "Mondial Relay"
+msgstr "Mondial Relay"
+
+#: couriers.php:2069
+msgid "Mongol Post"
+msgstr "蒙古的帖子"
+
+#: couriers.php:2075
+msgid "MRW"
+msgstr "MRW"
+
+#: couriers.php:2081
+msgid "GmbH"
+msgstr "GmbH"
+
+#: couriers.php:2087
+msgid "Mypostonline"
+msgstr "Mypostonline"
+
+#: couriers.php:2093
+msgid "Namibia Post"
+msgstr "納米比亞郵政"
+
+#: couriers.php:2099
+msgid "Nanjing Woyuan"
+msgstr "南京沃源"
+
+#: couriers.php:2105
+msgid "Naqel"
+msgstr "Naqel"
+
+#: couriers.php:2111
+msgid "Nationwide Express"
+msgstr "Nationwide Express"
+
+#: couriers.php:2117
+msgid "TNT Hong Kong"
+msgstr "香港TNT國際快遞"
+
+#: couriers.php:2123
+msgid "New Caledonia Post"
+msgstr "新赫里多尼亞郵政"
+
+#: couriers.php:2129
+msgid "New Zealand Post"
+msgstr "紐西蘭郵政"
+
+#: couriers.php:2135
+msgid "Newgistics"
+msgstr "Newgistics"
+
+#: couriers.php:2141
+msgid "Nexive"
+msgstr "Nexive"
+
+#: couriers.php:2147
+msgid "Nhans Solutions"
+msgstr "Nhans Solutions"
+
+#: couriers.php:2153
+msgid "Nicaragua Post"
+msgstr "尼加拉瓜郵政"
+
+#: couriers.php:2159
+msgid "Nigeria Post"
+msgstr "尼日利亞郵政"
+
+#: couriers.php:2165
+msgid "Nightline"
+msgstr "Nightline"
+
+#: couriers.php:2171
+msgid "Ninja Van"
+msgstr "Ninja Van"
+
+#: couriers.php:2177
+msgid "Ninja Van Malaysia"
+msgstr "Ninja Van （馬來西亞）"
+
+#: couriers.php:2183
+msgid "Ninja Van Philippines"
+msgstr "Ninja Van (菲律賓)"
+
+#: couriers.php:2189
+msgid "Ninja Van Thailand"
+msgstr "Ninja Van （泰國）"
+
+#: couriers.php:2195
+msgid "Ninja Van Indonesia"
+msgstr "Ninja Van （印度尼西亞）"
+
+#: couriers.php:2201
+msgid "Flying Leopards Express"
+msgstr "Flying Leopards Express"
+
+#: couriers.php:2207
+msgid "Nova Poshta"
+msgstr "Nova Poshta"
+
+#: couriers.php:2213
+msgid "NuvoEx"
+msgstr "NuvoEx"
+
+#: couriers.php:2219
+msgid "OCS China"
+msgstr "OCS China"
+
+#: couriers.php:2225
+msgid "Old Dominion Freight Line"
+msgstr "Old Dominion Freight Line"
+
+#: couriers.php:2231
+msgid "Oman Post"
+msgstr "阿曼郵政"
+
+#: couriers.php:2237
+msgid "Omni Parcel"
+msgstr "Omni Parcel快遞"
+
+#: couriers.php:2243
+msgid "Estonia Post"
+msgstr "愛沙尼亞郵政"
+
+#: couriers.php:2249
+msgid "One World Express"
+msgstr "易時達國際經濟速遞（萬歐國際）"
+
+#: couriers.php:2255
+msgid "OnTrac"
+msgstr "OnTrac"
+
+#: couriers.php:2261
+msgid "FedEx Poland Domestic"
+msgstr "波蘭FedEx"
+
+#: couriers.php:2267
+msgid "ORANGE CONNEX"
+msgstr "ORANGE CONNEX"
+
+#: couriers.php:2273
+msgid "Overnite Express"
+msgstr "Overnite印度快遞"
+
+#: couriers.php:2279
+msgid "Overseas Logistics"
+msgstr "Overseas Logistics"
+
+#: couriers.php:2285
+msgid "Overseas Territory FR EMS"
+msgstr "海外領地法國 EMS"
+
+#: couriers.php:2291
+msgid "Overseas Territory US Post"
+msgstr "海外領地美國郵政"
+
+#: couriers.php:2297
+msgid "Packlink"
+msgstr "Packlink"
+
+#: couriers.php:2303
+msgid "Pakistan Post"
+msgstr "巴基斯坦郵政"
+
+#: couriers.php:2309
+msgid "Palletways"
+msgstr "Palletways"
+
+#: couriers.php:2315
+msgid "Pandu Logistics"
+msgstr "Pandu Logistics"
+
+#: couriers.php:2321
+msgid "Pitney Bowes"
+msgstr "Pitney Bowes"
+
+#: couriers.php:2327
+msgid "Parcel Express"
+msgstr "Parcel Express"
+
+#: couriers.php:2333
+msgid "Parcel Force"
+msgstr "英國郵政parcelforce"
+
+#: couriers.php:2339
+msgid "Parcelled.in"
+msgstr "Parcelled.in"
+
+#: couriers.php:2345
+msgid "PCA"
+msgstr "PCA"
+
+#: couriers.php:2351
+msgid "PFC Express"
+msgstr "PFC皇家物流"
+
+#: couriers.php:2357
+msgid "Philippines Post"
+msgstr "菲律賓郵政"
+
+#: couriers.php:2363
+msgid "Poland Post"
+msgstr "波蘭郵政"
+
+#: couriers.php:2369
+msgid "PosLaju"
+msgstr "PosLaju"
+
+#: couriers.php:2375
+msgid "Montenegro Post"
+msgstr "黑山郵政"
+
+#: couriers.php:2381
+msgid "Poșta Română"
+msgstr "羅馬尼亞郵政"
+
+#: couriers.php:2387
+msgid "Albania Post"
+msgstr "阿爾巴尼亞郵政"
+
+#: couriers.php:2393
+msgid "Poste Italiane"
+msgstr "義大利郵政"
+
+#: couriers.php:2399
+msgid "Maroc Poste"
+msgstr "摩洛哥郵政"
+
+#: couriers.php:2405
+msgid "Posten Norge"
+msgstr "挪威郵政"
+
+#: couriers.php:2411
+msgid "PostNL International 3S"
+msgstr "PostNL International 3S"
+
+#: couriers.php:2417
+msgid "Netherlands Post - PostNL"
+msgstr "荷蘭郵政-PostNL"
+
+#: couriers.php:2423
+msgid "Papua New Guinea Post"
+msgstr "巴布亞新畿內亞郵政"
+
+#: couriers.php:2429
+msgid "The Professional Couriers (TPC)"
+msgstr "The Professional Couriers (TPC)"
+
+#: couriers.php:2435
+msgid "Purolator"
+msgstr "Purolator"
+
+#: couriers.php:2441
+msgid "QEXPRESS"
+msgstr "紐西蘭易達通"
+
+#: couriers.php:2447
+msgid "QFKD Express"
+msgstr "全峰快遞"
+
+#: couriers.php:2453
+msgid "7-ELEVEN"
+msgstr "7-ELEVEN"
+
+#: couriers.php:2459
+msgid "Venucia"
+msgstr "Venucia"
+
+#: couriers.php:2465
+msgid "Quantium Solutions"
+msgstr "冠庭國際物流"
+
+#: couriers.php:2471
+msgid "QuicKway"
+msgstr "QuicKway"
+
+#: couriers.php:2477
+msgid "Qxpress"
+msgstr "Qxpress"
+
+#: couriers.php:2483
+msgid "RAF Philippines"
+msgstr "RAF Philippines"
+
+#: couriers.php:2489
+msgid "RaidereX"
+msgstr "RaidereX"
+
+#: couriers.php:2495
+msgid "Redur Spain"
+msgstr "Redur Spain"
+
+#: couriers.php:2501
+msgid "RL Carriers"
+msgstr "RL Carriers"
+
+#: couriers.php:2507
+msgid "Roadbull Logistics"
+msgstr "Roadbull Logistics"
+
+#: couriers.php:2513
+msgid "ROSAN EXPRESS"
+msgstr "中烏融盛速遞"
+
+#: couriers.php:2519
+msgid "Royal Mail"
+msgstr "英國皇家郵政"
+
+#: couriers.php:2525
+msgid "RPX Indonesia"
+msgstr "RPX Indonesia"
+
+#: couriers.php:2531
+msgid "RPX Online"
+msgstr "RPX國際快遞"
+
+#: couriers.php:2537
+msgid "RR Donnelley"
+msgstr "RR Donnelley"
+
+#: couriers.php:2543
+msgid "Rufengda"
+msgstr "如風達"
+
+#: couriers.php:2549
+msgid "Russian Post"
+msgstr "俄羅斯郵政"
+
+#: couriers.php:2555
+msgid "Ruston"
+msgstr "Ruston俄速通"
+
+#: couriers.php:2561
+msgid "RZY Express"
+msgstr "RZY Express"
+
+#: couriers.php:2567
+msgid "Safexpress"
+msgstr "Safexpress"
+
+#: couriers.php:2573
+msgid "Sagawa"
+msgstr "Sagawa佐川急便"
+
+#: couriers.php:2579
+msgid "Sai Cheng Logistics"
+msgstr "賽誠國際物流"
+
+#: couriers.php:2585
+msgid "Saint Lucia Post"
+msgstr "聖盧西亞郵政"
+
+#: couriers.php:2591
+msgid "Samoa Post"
+msgstr "西薩摩亞郵政"
+
+#: couriers.php:2597
+msgid "San Marino Post"
+msgstr "聖馬力諾郵政"
+
+#: couriers.php:2603
+msgid "Saudi Post"
+msgstr "沙特阿拉伯郵政"
+
+#: couriers.php:2609
+msgid "Score Jp"
+msgstr "Score Jp"
+
+#: couriers.php:2615
+msgid "Sendle"
+msgstr "Sendle"
+
+#: couriers.php:2621
+msgid "Senegal Post"
+msgstr "塞內加爾郵政"
+
+#: couriers.php:2627
+msgid "Serbia Post"
+msgstr "塞爾維亞郵政"
+
+#: couriers.php:2633
+msgid "Serpost"
+msgstr "秘魯郵政"
+
+#: couriers.php:2639
+msgid "Seychelles Post"
+msgstr "塞舌爾郵政"
+
+#: couriers.php:2645
+msgid "S.F. Express"
+msgstr "順豐速遞"
+
+#: couriers.php:2651
+msgid "S.F. International"
+msgstr "順豐國際"
+
+#: couriers.php:2657
+msgid "SFC Service"
+msgstr "SFC Service"
+
+#: couriers.php:2663
+msgid "SGT Corriere Espresso"
+msgstr "SGT Corriere Espresso"
+
+#: couriers.php:2669
+msgid "SGT Express"
+msgstr "SGT Express"
+
+#: couriers.php:2675
+msgid "Shipgce Express"
+msgstr "飛洋快遞"
+
+#: couriers.php:2681
+msgid "Showl"
+msgstr "Showl"
+
+#: couriers.php:2687
+msgid "Shree Mahabali Express"
+msgstr "Shree Mahabali Express"
+
+#: couriers.php:2693
+msgid "Shree Maruti Courier"
+msgstr "Shree Maruti Courier"
+
+#: couriers.php:2699
+msgid "Singapore Post"
+msgstr "新加坡郵政"
+
+#: couriers.php:2705
+msgid "Singapore Speedpost"
+msgstr "新加坡特快專遞"
+
+#: couriers.php:2711
+msgid "SINOAIR"
+msgstr "中外運"
+
+#: couriers.php:2717
+msgid "Siodemka"
+msgstr "Siodemka"
+
+#: couriers.php:2723
+msgid "SJTSZ Express"
+msgstr "SJTSZ Express"
+
+#: couriers.php:2729
+msgid "SkyNet Malaysia"
+msgstr "SkyNet"
+
+#: couriers.php:2735
+msgid "SkyNet Worldwide Express"
+msgstr "SkyNet國際快遞"
+
+#: couriers.php:2741
+msgid "Skynet Worldwide Express UK"
+msgstr "Skynet Worldwide Express UK"
+
+#: couriers.php:2747
+msgid "Slovakia Post"
+msgstr "斯洛伐克郵政"
+
+#: couriers.php:2753
+msgid "Slovenia Post"
+msgstr "斯洛文尼亞郵政"
+
+#: couriers.php:2759
+msgid "SMSA Express"
+msgstr "SMSA快遞"
+
+#: couriers.php:2765
+msgid "Solomon Post"
+msgstr "所羅門群島郵政"
+
+#: couriers.php:2771
+msgid "Burkina Faso Post"
+msgstr "布基納法索郵政"
+
+#: couriers.php:2777
+msgid "South African Post Office"
+msgstr "南非郵政"
+
+#: couriers.php:2783
+msgid "Specialised Freight"
+msgstr "Specialised Freight"
+
+#: couriers.php:2789
+msgid "Speed Post"
+msgstr "Speed Post"
+
+#: couriers.php:2795
+msgid "Speedex Courier"
+msgstr "Speedex Courier"
+
+#: couriers.php:2801
+msgid "SpeedPAK"
+msgstr "SpeedPAK"
+
+#: couriers.php:2807
+msgid "SprintPack"
+msgstr "SprintPack"
+
+#: couriers.php:2813
+msgid "SPSR"
+msgstr "中俄快遞SPSR"
+
+#: couriers.php:2819
+msgid "SRE Korea"
+msgstr "SRE Korea"
+
+#: couriers.php:2825
+msgid "StarTrack"
+msgstr "StarTrack 快遞"
+
+#: couriers.php:2831
+msgid "Suteng Logistics"
+msgstr "速騰快遞"
+
+#: couriers.php:2837
+msgid "STO Express"
+msgstr "申通快遞"
+
+#: couriers.php:2843
+msgid "Sudan Post"
+msgstr "蘇丹郵政"
+
+#: couriers.php:2849
+msgid "Sunyou"
+msgstr "順友物流"
+
+#: couriers.php:2855
+msgid "SuperOZ Logistics"
+msgstr "SuperOZ Logistics"
+
+#: couriers.php:2861
+msgid "Sure56"
+msgstr "速爾快遞"
+
+#: couriers.php:2867
+msgid "SYD Express"
+msgstr "速郵達物流"
+
+#: couriers.php:2873
+msgid "Saint Vincent And The Grenadines"
+msgstr "聖文森特和格林納丁斯"
+
+#: couriers.php:2879
+msgid "Sweden Posten"
+msgstr "瑞典郵政"
+
+#: couriers.php:2885
+msgid "Swiss Post"
+msgstr "瑞士郵政"
+
+#: couriers.php:2891
+msgid "SX-Express"
+msgstr "SX-Express"
+
+#: couriers.php:2897
+msgid "Syrian Post"
+msgstr "敘利亞的帖子"
+
+#: couriers.php:2903
+msgid "DPEX China"
+msgstr "DPEX國際快遞（中國）"
+
+#: couriers.php:2909
+msgid "T Cat"
+msgstr "黑貓宅急便"
+
+#: couriers.php:2915
+msgid "Taiwan Post"
+msgstr "臺灣郵政"
+
+#: couriers.php:2921
+msgid "Takesend Logistics"
+msgstr "泰嘉物流"
+
+#: couriers.php:2927
+msgid "Tanzania Post"
+msgstr "坦桑尼亞郵政"
+
+#: couriers.php:2933
+msgid "TAQBIN Hong Kong"
+msgstr "香港宅急便"
+
+#: couriers.php:2939
+msgid "Yamato Japan"
+msgstr "Yamato宅急便"
+
+#: couriers.php:2945
+msgid "TAQBIN Malaysia"
+msgstr "TAQBIN Malaysia"
+
+#: couriers.php:2951
+msgid "Geniki Taxydromiki"
+msgstr "Geniki Taxydromiki"
+
+#: couriers.php:2957
+msgid "Tea post"
+msgstr "亞歐快運TEA"
+
+#: couriers.php:2963
+msgid "Greenland Post"
+msgstr "格陵蘭島郵政"
+
+#: couriers.php:2969
+msgid "TGX"
+msgstr "TGX精英速運"
+
+#: couriers.php:2975
+msgid "Thailand Post"
+msgstr "泰國郵政"
+
+#: couriers.php:2981
+msgid "The Courier Guy"
+msgstr "The Courier Guy"
+
+#: couriers.php:2987
+msgid "Tiki"
+msgstr "Tiki"
+
+#: couriers.php:2993
+msgid "Tk Kit"
+msgstr "Tk Kit"
+
+#: couriers.php:2999
+msgid "TNT"
+msgstr "TNT"
+
+#: couriers.php:3005
+msgid "TNT Australia"
+msgstr "澳大利亞TNT"
+
+#: couriers.php:3011
+msgid "TNT Click"
+msgstr "TNT Click"
+
+#: couriers.php:3017
+msgid "TNT France"
+msgstr "法國TNT"
+
+#: couriers.php:3023
+msgid "TNT Italy"
+msgstr "義大利TNT"
+
+#: couriers.php:3029
+msgid "TNT Reference"
+msgstr "TNT Reference"
+
+#: couriers.php:3035
+msgid "TNT UK"
+msgstr "TNT UK"
+
+#: couriers.php:3041
+msgid "Togo Post"
+msgstr "多哥郵政"
+
+#: couriers.php:3047
+msgid "TOLL"
+msgstr "TOLL"
+
+#: couriers.php:3053
+msgid "Toll IPEC"
+msgstr "Toll IPEC"
+
+#: couriers.php:3059
+msgid "Tonga Post"
+msgstr "湯加郵政"
+
+#: couriers.php:3065
+msgid "Trackon Courier"
+msgstr "Trackon"
+
+#: couriers.php:3071
+msgid "TrakPak"
+msgstr "TrakPak"
+
+#: couriers.php:3077
+msgid "TransRush"
+msgstr "轉運四方"
+
+#: couriers.php:3083
+msgid "TTKD Express"
+msgstr "天天快遞"
+
+#: couriers.php:3089
+msgid "Tunisia Post"
+msgstr "突尼斯郵政"
+
+#: couriers.php:3095
+msgid "Turkey Post"
+msgstr "土耳其郵政"
+
+#: couriers.php:3101
+msgid "Turtle express"
+msgstr "Turtle express"
+
+#: couriers.php:3107
+msgid "UBI Smart Parcel"
+msgstr "UBI Logistics Australia"
+
+#: couriers.php:3113
+msgid "UBon Express"
+msgstr "優邦速運"
+
+#: couriers.php:3119
+msgid "UBX Express"
+msgstr "UBX Express"
+
+#: couriers.php:3125
+msgid "UC Express"
+msgstr "優速快遞"
+
+#: couriers.php:3131
+msgid "Uganda Post"
+msgstr "烏干達郵政"
+
+#: couriers.php:3137
+msgid "Ukraine EMS"
+msgstr "烏克蘭 EMS"
+
+#: couriers.php:3143
+msgid "Ukraine Post"
+msgstr "烏克蘭郵政"
+
+#: couriers.php:3149
+msgid "Un-line"
+msgstr "Un-line"
+
+#: couriers.php:3155
+msgid "UPS"
+msgstr "UPS"
+
+#: couriers.php:3161
+msgid "UPS Freight"
+msgstr "UPS Freight"
+
+#: couriers.php:3167
+msgid "UPS Ground"
+msgstr "UPS Ground"
+
+#: couriers.php:3173
+msgid "UPS Mail Innovations"
+msgstr "UPS Mail Innovations"
+
+#: couriers.php:3179
+msgid "UPU"
+msgstr "UPU"
+
+#: couriers.php:3185
+msgid "Uruguay Post"
+msgstr "烏拉圭郵政"
+
+#: couriers.php:3191
+msgid "Usky"
+msgstr "Usky"
+
+#: couriers.php:3197
+msgid "USPS"
+msgstr "美國郵政"
+
+#: couriers.php:3203
+msgid "UTEC"
+msgstr "UTEC瞬移達"
+
+#: couriers.php:3209
+msgid "Uzbekistan Post"
+msgstr "烏茲別克郵政"
+
+#: couriers.php:3215
+msgid "Vanuatu Post"
+msgstr "瓦努阿圖郵政"
+
+#: couriers.php:3221
+msgid "Vietnam Post"
+msgstr "越南郵政"
+
+#: couriers.php:3227
+msgid "Viettel Post"
+msgstr "Viettel Post"
+
+#: couriers.php:3233
+msgid "Wahana"
+msgstr "Wahana"
+
+#: couriers.php:3239
+msgid "Wanb Express"
+msgstr "Wanb Express"
+
+#: couriers.php:3245
+msgid "WeDo Logistics"
+msgstr "WeDo Logistics"
+
+#: couriers.php:3251
+msgid "Whistl"
+msgstr "Whistl"
+
+#: couriers.php:3257
+msgid "Winit"
+msgstr "winit萬邑通"
+
+#: couriers.php:3263
+msgid "Winlink logistics"
+msgstr "Winlink logistics"
+
+#: couriers.php:3269
+msgid "Wise Express"
+msgstr "萬色速遞"
+
+#: couriers.php:3275
+msgid "Wiseloads"
+msgstr "wiseloads快遞"
+
+#: couriers.php:3281
+msgid "WishPost"
+msgstr "Wish郵"
+
+#: couriers.php:3287
+msgid "wnDirect"
+msgstr "wndirect快遞"
+
+#: couriers.php:3293
+msgid "WSGD Logistics"
+msgstr "WSGD物流"
+
+#: couriers.php:3299
+msgid "XD EXPRESS"
+msgstr "迅達速遞"
+
+#: couriers.php:3305
+msgid "XDP Express"
+msgstr "XDP Express"
+
+#: couriers.php:3311
+msgid "Xend Express"
+msgstr "Xend"
+
+#: couriers.php:3317
+msgid "XPOST"
+msgstr "XPOST"
+
+#: couriers.php:3323
+msgid "XpressBees"
+msgstr "XpressBees"
+
+#: couriers.php:3329
+msgid "xpresspost"
+msgstr "xpresspost"
+
+#: couriers.php:3335
+msgid "XQ Express"
+msgstr "星前物流"
+
+#: couriers.php:3341
+msgid "XRU"
+msgstr "XRU-俄速遞"
+
+#: couriers.php:3347
+msgid "Yakit"
+msgstr "yakit快遞"
+
+#: couriers.php:3353
+msgid "Yanwen"
+msgstr "燕文"
+
+#: couriers.php:3359
+msgid "YDH"
+msgstr "YDH"
+
+#: couriers.php:3365
+msgid "Yemen Post"
+msgstr "葉門郵政"
+
+#: couriers.php:3371
+msgid "Eshipping"
+msgstr "Eshipping"
+
+#: couriers.php:3377
+msgid "YMDD"
+msgstr "YMDD"
+
+#: couriers.php:3383
+msgid "YJI"
+msgstr "YJI"
+
+#: couriers.php:3389
+msgid "Yodel"
+msgstr "Yodel"
+
+#: couriers.php:3395
+msgid "YTO Express"
+msgstr "圓通快遞"
+
+#: couriers.php:3401
+msgid "Yunda Express"
+msgstr "韻達快遞"
+
+#: couriers.php:3407
+msgid "Yun Express"
+msgstr "雲圖物流"
+
+#: couriers.php:3413
+msgid "YL express"
+msgstr "YL express"
+
+#: couriers.php:3419
+msgid "Zajil"
+msgstr "Zajil"
+
+#: couriers.php:3425
+msgid "Zambia Post"
+msgstr "尚比亞郵政"
+
+#: couriers.php:3431
+msgid "Eshun International Logistics"
+msgstr "俄順國際物流"
+
+#: couriers.php:3437
+msgid "Zimbabwe Post"
+msgstr "津巴布韋郵政"
+
+#: couriers.php:3443
+msgid "ZJS International"
+msgstr "宅急送快遞"
+
+#: couriers.php:3449
+msgid "Zhongtie Logistics"
+msgstr "中鐵物流"
+
+#: couriers.php:3455
+msgid "ZTO Express"
+msgstr "中通快遞"
+
+#: trackingmore-fields.php:25
+msgid "Tracking number:"
+msgstr "快遞單號："
+
+#. #-#-#-#-#  trackingmore.pot (TrackingMore - WooCommerce Tracking 1.0.6)  #-#-#-#-#
+#. Author of the plugin/theme
+#: trackingmore.php:159
+msgid "TrackingMore"
+msgstr ""
+
+#: trackingmore.php:171
+msgid "Carrier:"
+msgstr "運輸商："
+
+#: trackingmore.php:177
+msgid "Please Select"
+msgstr "請選擇"
+
+#: trackingmore.php:179
+msgid "Update carrier list"
+msgstr "更新運輸商列表"
+
+#: trackingmore.php:238
+msgid "TrackingMore's WordPress API Key"
+msgstr "TrackingMore WordPress API密鑰"
+
+#: trackingmore.php:244
+msgid "Generate API Key"
+msgstr "生成API密鑰"
+
+#: trackingmore.php:250
+msgid "Revoke API Key"
+msgstr "撤回API密鑰"
+
+#: trackingmore.php:300
+msgid "l jS F Y"
+msgstr "l jS F Y"
+
+#. Plugin Name of the plugin/theme
+msgid "TrackingMore - WooCommerce Tracking"
+msgstr "TrackingMore WordPress快遞查詢插件"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.trackingmore.com/"
+msgstr "https://www.trackingmore.com/"
+
+#. Description of the plugin/theme
+msgid "Add tracking number and carrier name to WooCommerce, display tracking info at order history page, auto import tracking numbers to trackingmore."
+msgstr "在WooCommerce中添加快遞單號和運輸商名字，顯示物流信息。 單號會自動同步到TrackingMore賬戶。"
+
+#. Author URI of the plugin/theme
+msgid "https://www.trackingmore.com"
+msgstr "https://www.trackingmore.com"

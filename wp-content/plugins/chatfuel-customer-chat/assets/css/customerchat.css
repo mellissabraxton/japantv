@@ -1,0 +1,154 @@
+.main-plugin-container {
+    width: 100%;
+    max-width: 500px;
+    font-family: "Open Sans", Sans, sans-serif;
+}
+
+.margin-top{
+    margin-top: 25px !important;
+}
+
+.connect-button{
+    display: block;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #3e454a;
+    text-shadow: 0 0 3px #000;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    align-self: center;
+    text-decoration: none;
+}
+
+.connect-button:hover {
+    background-color: #262b30;
+    text-shadow: 0 0 3px #000;
+    color: #fff;
+    outline: none;
+}
+
+.page-container {
+    width: 100%;
+    vertical-align: baseline;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5px;
+    margin-top: 15px;
+}
+
+.page-container img {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px 0 0 4px;
+}
+
+.page-container .page-title {
+    color: #222222;
+    font-size: 13px;
+    font-weight: 400;
+    align-self: center;
+    padding: 5px 10px;
+    flex-basis: 300px;
+}
+
+.page-container .disconnect-button {
+
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #3e454a;
+    text-shadow: 0 0 3px #000000;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    align-self: center;
+    text-decoration: none;
+}
+
+.features-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-block {
+    width: 47%;
+    height: 300px;
+    box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.feature-block .logo-container {
+    width: 100%;
+    height: 120px;
+    box-shadow: 0 0 120px 0px rgba(255, 255, 255, 0.13);
+    border-radius: 8px 8px 0 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #003949;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.feature-block.chatfuel .logo-container {
+    background-color: #003949;
+    background-image: url("../images/chatfuel-logo.png");
+}
+
+.feature-block.master-of-code .logo-container {
+    background-color: #ef4934;
+    background-image: url("../images/moc-logo.png");
+}
+
+.feature-block .text-container {
+    width: 88%;
+    color: #222222;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 20px 6%;
+    line-height: 1.3;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.feature-block .text-container p {
+    line-height: 1.3;
+    margin: 0;
+    flex-basis: 105px;
+}
+
+.feature-block .text-container a {
+    color: #0074ab;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.feature-block .text-container a.feature-button {
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #0087bb;
+    text-shadow: 0 0 3px #000000;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.feature-block .text-container a.feature-button:hover {
+    box-shadow: 0 0 120px 0px rgba(255, 255, 255, 0.13);
+}
