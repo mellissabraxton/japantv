@@ -1,1 +1,1 @@
-# japantv
+https://www.japanlive.tv
